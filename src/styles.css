@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+
+/* Custom primary color */
+:root {
+  --bs-primary: #008b8b; /* teal tone */
+  --bs-primary-rgb: 0, 139, 139;
+  --bs-body-color: #000000; /* black */
+}
+
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.navbar, .btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+a.nav-link, .navbar-brand, .btn, .form-label {
+  color: #fff !important;
+}
+
+a.nav-link:hover {
+  color: #c0ffff !important;
+}

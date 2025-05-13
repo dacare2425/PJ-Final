@@ -6,6 +6,6 @@ import { RouterLink } from '@angular/router';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
   standalone: true,
-  imports: [RouterLink] // 👈 Esto habilita routerLink en el template
+  imports: [RouterLink]
 })
 export class NavbarComponent {}
